@@ -26,7 +26,7 @@ ul {
 .button {
     background-color: var(--color-contrast-toolbarcolor);
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 5px 5px 10px;
 }
 
@@ -49,5 +49,19 @@ main {
     width: calc(100% / 7 - 10px);
     min-width: 145px;
     aspect-ratio: 4 / 3;
-    
+    position: relative;;   
+}
+
+.card>img {
+    width: 100%;
+    display: block;
+}
+.tag {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    font-size: small;
+    font-weight: 600;
 }
