@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/utility.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <title></title>
+    <title>Zoom</title>
 </head>
 
 <body>
@@ -194,60 +197,63 @@
 
 
         </main>
+
         <div id="toolbar" class="d-flex row s-between">
             <div class="left-toolbar d-flex row">
                 <div class="debug namedicones">
                     <i class="fa-solid fa-microphone"></i>
                     <span>Mute</span>
                 </div>
-                <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                <div class="debug d-flex a-center">
+                    <i class="fa-solid fa-angle-up"></i>
                 </div>
                 <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                    <i class="fa-solid fa-video"></i>
+                    <span>Stop video</span>
                 </div>
-                <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                <div class="debug d-flex a-center">
+                    <i class="fa-solid fa-angle-up"></i>
                 </div>
             </div>
             <div class="center-toolbar d-flex row">
                 <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                    <i class="fa-solid fa-user-plus"></i>
+                    <span>Invite</span>
                 </div>
                 <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>Manage partecipants</span>
                 </div>
                 <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>Polling</span>
                 </div>
                 <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
+                    <i id="share-screen" class="fa-solid fa-share-from-square"></i>
+                    <span>Share screen</span>
+                </div>
+                <div class="debug d-flex a-center">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                <div class="debug namedicones">
+                    <i class="fa-solid fa-comment"></i>
+                    <span>Chat</span>
+                </div>
+                <div class="debug namedicones">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <span>Record</span>
+                </div>
+                <div class="debug namedicones">
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <span>Breackout rooms</span>
+                </div>
+                <div class="debug namedicones">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span>More</span>
                 </div>
             </div>
-            <div class="right-toolbar d-flex row">
-                <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
-                </div>
-                <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
-                </div>
-                <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
-                </div>
-                <div class="debug namedicones">
-                    <i class="fa-solid fa-microphone"></i>
-                    <span>Mute</span>
-                </div>
+            <div class="right-toolbar d-flex a-center">
+                <div>End meeting</div>
             </div>
         </div>
 
@@ -255,5 +261,3 @@
 </body>
 
 </html>
-
-debug d-flex column a-center
