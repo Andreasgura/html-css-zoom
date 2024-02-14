@@ -55,7 +55,7 @@ main {
 .card {
     background-color: #4bc800;
     width: calc(100% / 7 - 10px);
-    min-width: 145px;
+    min-width: 105px;
     aspect-ratio: 4 / 3;
     position: relative;
     ;
@@ -79,7 +79,7 @@ main {
 /* toolbar */
 #toolbar {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     bottom: 0px;
     left: 0px;
     background-color: var(--color-main-toolbarcolor);
