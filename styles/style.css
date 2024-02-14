@@ -1,0 +1,53 @@
+:root {
+	--color-maincolor: #000000;
+	--color-contrastcolor: #ffffff;
+	--color-main-toolbarcolor: #222222;
+	--color-contrast-toolbarcolor: #4a4a4a;
+	--color-button-colorone: #ff0000;
+	--color-button-colortwo: #4bc800;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* general */
+.debug {
+    border: 2px solid red;
+}
+
+.button {
+    background-color: var(--color-contrast-toolbarcolor);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 5px 10px;
+}
+
+#container {
+    background-color: var(--color-maincolor);
+    color: var(--color-contrastcolor);
+    width: 100%;
+    height: 100vh;
+}
+
+/* main */
+main {
+    gap: 10px;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    margin: 10px 50px;
+}
+.card {
+    background-color: #4bc800;
+    width: calc(100% / 7 - 10px);
+    min-width: 145px;
+    aspect-ratio: 4 / 3;
+    
+}
