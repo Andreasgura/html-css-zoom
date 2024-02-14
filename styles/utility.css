@@ -88,6 +88,9 @@ ul {
 .j-end {
     justify-content: flex-end;
 }
+.a-center {
+    align-items: center;
+}
 
 .inline-block {
     display: inline-block;
@@ -98,6 +101,6 @@ ul {
 .wrap {
     flex-wrap: wrap;
 }
-.row { 
-    flex-direction: row;
+.column { 
+    flex-direction: column;
 }
